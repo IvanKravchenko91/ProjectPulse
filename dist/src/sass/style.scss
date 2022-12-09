@@ -5,6 +5,10 @@
 .container {
     max-width: 950px;
     margin: 0 auto;
+    &_carousel {
+        max-width: 750px;
+        margin: 0 auto;
+    }
 }
 @import 'blocks/promo';
 @import 'blocks/header';
@@ -13,4 +17,5 @@
 @import 'blocks/consultation';
 @import 'blocks/titles';
 @import 'blocks/forms';
-@import '../sass/media'
+@import '../sass/media';
+@import 'blocks/carousel';
