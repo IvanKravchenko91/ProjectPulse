@@ -1,0 +1,34 @@
+.advantage {
+    min-height: 473px;
+    background: #F6F6F6;
+    &__icons {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-around;
+        }
+    &__icon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 238px;
+    }
+    &__signature {
+        margin-top: 34px;
+        font-weight: 700;
+        font-size: 18px;
+        color: #0D0D0D;
+    }
+    &__descriptions {
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 14px;
+        color: #0D0D0D;
+        a {
+            font-family: 'MuseoModerno';
+            font-weight: 300;
+            font-size: 14px;
+            text-decoration-line: underline;
+            color: #FF0000;
+        }
+    }
+}
