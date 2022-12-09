@@ -26,4 +26,41 @@
         max-width: 500px;
         margin: 0 auto;
     }
+    .header {
+        &__logo {
+            width: 250px;
+            img {
+                width: 70%;
+            }
+        }
+        &__official {
+            padding: 0 40px 0 0;
+            font-weight: 500;
+            font-size: 11px;
+            span {
+                display: block;
+                font-size: 15px;
+            }
+        }
+        &__phone {
+            font-size: 16px;
+            &:hover {
+                color: beige;
+                text-decoration: none;
+            }
+        }
+    }
+    .advantage {
+        min-height: 473px;
+        background: #F6F6F6;
+        &__signature {
+            font-size: 17px;
+        }
+        &__descriptions {
+            font-size: 12px;
+            a {
+                font-size: 12px;
+            }
+        }
+    }
 }
